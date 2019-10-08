@@ -9,7 +9,8 @@
 # Motivation
 Because of the automation of the traditional industry, workers are undergoing job transitions. According to a recent report, about 40 to 50 percent of jobs in developed countries are at high risk of change. Up to 400 million workers must find their next job opportunities in the future. Job transition is a painful process. When browsing job posters, there are always a bunch of skill requirements, and we have to acquire new skills to get the next job. One of the popular ways to get new skills is by taking MOOC (Massive Open Online Course). However, MOOC resources are overwhelming, so we will spend time and money to figure out the fittest courses for that position. To find courses based on the job poster easier, I developed BridgEdU.
 <br/><br/>
-The online course recommendation system was deployed as a web-app using Flask framework on AWS EC2, [BridgEdU](http://sorbite.xyz:5000).
+The online course recommendation system was deployed as a web-app using Flask framework on AWS EC2, 
+# [BridgEdU](http://sorbite.xyz:5000).
 
 ![](images/header.PNG)
 
