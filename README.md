@@ -5,6 +5,7 @@
 - [Motivation](#Motivation)
 - [Features](#Features)
 - [Pipeline](#Pipeline)
+- [Dependencies](#Dependencies)
 - [Components](#Components)
 # Motivation
 Because of the automation of the traditional industry, workers are undergoing job transitions. According to a recent report, about 40 to 50 percent of jobs in developed countries are at high risk of change. Up to 400 million workers must find their next job opportunities in the future. Job transition is a painful process. When browsing job posters, there are always a bunch of skill requirements, and we have to acquire new skills to get the next job. One of the popular ways to get new skills is by taking MOOC (Massive Open Online Course). However, MOOC resources are overwhelming, so we will spend time and money to figure out the fittest courses for that position. To find courses based on the job poster easier, I developed BridgEdU.
@@ -43,6 +44,9 @@ The online course recommendation system was deployed as a web-app using Flask fr
 * __Validate the recommended courses__: the recommendation system was validated by relevancy between the course recommended and the job poster inputted, by comparing true learner label and suggested learner label assigned to recommended courses. The overall accuracy of the top 5 courses recommended on the test set of job posters is 94.1%. Another validation approach I would like to implement will be A/B testing, to check the enrollment rate of recommended courses.
 <br/><br/>
 ![](images/validate.PNG)
+# Dependencies
+* Python 3
+* Python [packages](requirements.txt)
 # Components
 ### All the components in the package 'utilities' for BridgEdU are listed.
 __ScrapeIndeed__: scrapes job posters from indeed.ca. Job posters, including titles with 'Graphic Designers', 'Data Scientist', 'Security Engineer', 'Pharmacist', 'Marketing Specialist', 'Business Analyst', 'Accountant', 'Customer Care Rep', 'Biologist', 'Librarian', 'Entrepreneur', 'Teacher', and 'Photographer' were scraped.
