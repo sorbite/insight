@@ -1,0 +1,12 @@
+flask 
+requests
+bs4
+nltk
+spacy
+pandas
+numpy
+sklearn
+pathlib
+werkzeug
+findspark
+pyspark
