@@ -46,7 +46,7 @@ The online course recommendation system was deployed as a web-app using Flask fr
 ![](images/validate.PNG)
 # Dependencies
 * Python 3
-* Python [packages](requirements.txt)
+* Python [packages](utilities/requirements.txt)
 # Components
 ### All the components in the package 'utilities' for BridgEdU are listed.
 __ScrapeIndeed__: scrapes job posters from indeed.ca. Job posters, including titles with 'Graphic Designers', 'Data Scientist', 'Security Engineer', 'Pharmacist', 'Marketing Specialist', 'Business Analyst', 'Accountant', 'Customer Care Rep', 'Biologist', 'Librarian', 'Entrepreneur', 'Teacher', and 'Photographer' were scraped.
@@ -59,11 +59,15 @@ __CleanCourseraDataset__: cleans and wrangles scraped course information using n
 <br/><br/>
 __PreprocessDataset__: processes job posters and course descriptions. After this step, the contents of both are ready to apply NER.
 <br/><br/>
-__SaveSpark__: the course collection is saved as Spark dataframe. 
+__SaveSpark__: saves the course collection as Spark dataframe. 
 <br/><br/>
 __TrainENR__: coverts dataset to spacy training set and trains the NER model with customized labels.
 <br/><br/>
 __Recommend__: processes user input and extracts skill vectors of the job poster. Calculates the cosine similarity between job skill vector and course skill vectors. Lists the most similar courses according to the inputted job poster.
 <br/><br/>
 __Validate__: computes the overall accuracy of the top 5 recommended courses from Coursera.org using the test set with scraped job posters.
+<br/><br/>
+__app__: runs the core components of BridgEdU web-app.
+
+
 
